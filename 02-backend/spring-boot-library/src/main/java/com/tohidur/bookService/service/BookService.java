@@ -1,7 +1,7 @@
-package com.tohidur.service;
+package com.tohidur.bookService.service;
 
-import com.tohidur.responseData.BookListResponseData;
-import com.tohidur.responseData.BookResponseData;
+import com.tohidur.bookService.responseData.BookListResponseData;
+import com.tohidur.bookService.responseData.BookResponseData;
 
 public interface BookService {
 

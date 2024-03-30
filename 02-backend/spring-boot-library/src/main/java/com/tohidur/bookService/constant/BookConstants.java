@@ -1,4 +1,4 @@
-package com.tohidur.constant;
+package com.tohidur.bookService.constant;
 
 public class BookConstants {
 

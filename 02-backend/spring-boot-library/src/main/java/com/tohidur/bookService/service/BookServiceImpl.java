@@ -1,9 +1,9 @@
-package com.tohidur.service;
+package com.tohidur.bookService.service;
 
-import com.tohidur.entity.Book;
-import com.tohidur.repository.BookRepository;
-import com.tohidur.responseData.BookListResponseData;
-import com.tohidur.responseData.BookResponseData;
+import com.tohidur.bookService.entity.Book;
+import com.tohidur.bookService.responseData.BookListResponseData;
+import com.tohidur.bookService.repository.BookRepository;
+import com.tohidur.bookService.responseData.BookResponseData;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

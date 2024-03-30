@@ -1,10 +1,10 @@
-package com.tohidur.controller;
+package com.tohidur.bookService.controller;
 
 
-import com.tohidur.constant.BookConstants;
-import com.tohidur.responseData.BookListResponseData;
-import com.tohidur.responseData.BookResponseData;
-import com.tohidur.service.BookService;
+import com.tohidur.bookService.constant.BookConstants;
+import com.tohidur.bookService.responseData.BookListResponseData;
+import com.tohidur.bookService.responseData.BookResponseData;
+import com.tohidur.bookService.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
