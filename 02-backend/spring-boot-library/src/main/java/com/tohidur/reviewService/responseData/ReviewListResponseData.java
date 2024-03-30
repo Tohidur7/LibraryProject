@@ -1,22 +1,21 @@
-package com.tohidur.responseData;
-
-import com.tohidur.entity.Book;
+package com.tohidur.reviewService.responseData;
+import com.tohidur.reviewService.entity.Review;
 
 import java.util.List;
 
-public class BookListResponseData {
+public class ReviewListResponseData {
 
-    private List<Book> content;
+    private List<Review> content;
     private int pageNo ;
     private int pageSize ;
     private long totalElement ;
     private int totalPages ;
     private boolean last ;
 
-    public BookListResponseData() {
+    public ReviewListResponseData() {
     }
 
-    public BookListResponseData(List<Book> content, int pageNo, int pageSize, long totalElement, int totalPages, boolean last) {
+    public ReviewListResponseData(List<Review> content, int pageNo, int pageSize, long totalElement, int totalPages, boolean last) {
         this.content = content;
         this.pageNo = pageNo;
         this.pageSize = pageSize;
@@ -25,11 +24,11 @@ public class BookListResponseData {
         this.last = last;
     }
 
-    public List<Book> getContent() {
+    public List<Review> getContent() {
         return content;
     }
 
-    public void setContent(List<Book> content) {
+    public void setContent(List<Review> content) {
         this.content = content;
     }
 
@@ -75,8 +74,8 @@ public class BookListResponseData {
 
     @Override
     public String toString() {
-        return "BookListResponseData{" +
-                "books=" + content +
+        return "ReviewListResponseData{" +
+                "content=" + content +
                 ", pageNo=" + pageNo +
                 ", pageSize=" + pageSize +
                 ", totalElement=" + totalElement +

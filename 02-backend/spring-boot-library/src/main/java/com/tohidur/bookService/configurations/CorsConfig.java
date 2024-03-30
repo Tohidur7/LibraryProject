@@ -1,4 +1,4 @@
-package com.tohidur.configurations;
+package com.tohidur.bookService.configurations;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

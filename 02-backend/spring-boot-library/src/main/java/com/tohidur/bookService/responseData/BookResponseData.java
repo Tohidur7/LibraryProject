@@ -1,41 +1,21 @@
-package com.tohidur.entity;
+package com.tohidur.bookService.responseData;
 
-import jakarta.persistence.*;
+public class BookResponseData {
 
-@Entity
-@Table(name="book")
-public class Book {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
     private Long id ;
-
-    @Column( name="title")
     private String title ;
-
-    @Column( name="author")
     private String author ;
-
-    @Column( name="description")
     private String description ;
-
-    @Column( name="copies")
     private int copies ;
-
-    @Column( name="copies_available")
     private int copiesAvailable ;
-
-    @Column( name="category")
     private  String category ;
-
-    @Column( name="img")
     private String img ;
 
-    public Book() {
+    public BookResponseData() {
     }
 
-    public Book(Long id, String title, String author, String description, int copies, int copiesAvailable, String category, String img) {
+    public BookResponseData(Long id, String title, String author, String description, int copies, int copiesAvailable, String category, String img) {
         this.id = id;
         this.title = title;
         this.author = author;
@@ -112,7 +92,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
+        return "BookResponseData{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", author='" + author + '\'' +

@@ -1,6 +1,6 @@
-package com.tohidur.repository;
+package com.tohidur.bookService.repository;
 
-import com.tohidur.entity.Book;
+import com.tohidur.bookService.entity.Book;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
